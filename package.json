@@ -1,0 +1,24 @@
+{
+  "name": "monitor-de-gases",
+  "version": "1.0.0",
+  "description": "API - Monitor de Gases",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase-admin": "^12.6.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
